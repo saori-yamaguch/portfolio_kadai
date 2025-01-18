@@ -1,12 +1,5 @@
 @charset "UTF-8";
 
-/* header写真透過 */
-.icon {
-	position: relative;
-	height: 50vh;
-  background: url(images/header.jpg) center / cover;
-}
-
 .white{
   background-color: rgba(255, 255, 255, 0.5);
   padding-left: 80px;
@@ -19,7 +12,6 @@
   color:#333;
 }
 
-/* グローバルナビゲーション */
 nav {
   /* display: flex; */
   background-color: #ffae40;
