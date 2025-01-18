@@ -69,13 +69,8 @@ h1 {
   color:#333
 }
 
-h2 {
-  /* 線の色決める */
-  border: 2px solid #ffae40;
-  color: #ffae40;
-  padding: 11px 22px;
-  border-radius: 5px;
-  background-color: #ffffff;
+h4 {
+  color:#333
 }
 
 h3 {
@@ -139,14 +134,3 @@ footer{
   width: 100%;
   text-align: center;
 }
-
-
-/* メディアクエリー */
-@media screen and (max-width:400px) {
-  body{
-    font-size:1.5rem;
-  }
-  .cook{
-    flex-direction: column;
-  }
-  }
