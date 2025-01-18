@@ -155,10 +155,14 @@ figure{
   background-color:#ffffff;
   padding: 20px;
   border-radius: 10px;
+  text-align: center;
 }
 img{
   border-radius:10px;
+  display: block;
+  margin: 0 auto;
 }
+
 figcaption{
   font-family:Georgia, 'Times New Roman', Times, serif;
   text-align: center;
