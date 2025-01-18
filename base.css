@@ -100,10 +100,6 @@ p{
   font-size: 15px;
 }
 
-p::after{
-  content:"."
-}
-
 blockquote{
   background-color:#ffffff;
   padding: 10px 30px;
