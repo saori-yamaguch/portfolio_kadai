@@ -6,8 +6,6 @@
   text-align: center;
   border-left:solid 25px#ffae40;
   border-right:solid 25px#ffae40;
-  height: 50vh; 
-  margin-bottom: 20px;
 }
 
 .caption{
@@ -15,7 +13,6 @@
 }
 
 nav {
-  /* display: flex; */
   background-color: #ffae40;
   border-radius:10px;
 }
@@ -94,7 +91,7 @@ p{
   font-size: 15px;
 }
 
-blockquote{
+.text{
   background-color:#ffffff;
   padding: 10px 30px;
   border-radius:10px; 
@@ -102,49 +99,8 @@ blockquote{
 }
 
 
-/* 表の設定 */
-table {
-  border: 1px solid #ddd;
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 2em;
-  text-align: center;
-}
-
-.table th,
-.table td {
-  padding: 10px;
-  border: 1px solid darkgray;
-  background-color:#ffffff;
-}
-
-.table th {
-  background-color: rgba(255, 174, 64, 0.5);
-}
-
-caption{
-  font-weight: bold;
-}
-
-@media screen and (min-width: 600px) {
-  .table th {
-      width: 20%;
-  }
-
-  .table td {
-      width: 80%;
-  }
-}
 
 /* 画像・文字の横並び */
-.cook{
-  display: flex;
-}
-
-.cook1{
-  margin-right:30px;
-}
-
 figure{
   background-color:#ffffff;
   padding: 20px;
